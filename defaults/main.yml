@@ -1,0 +1,18 @@
+---
+
+# Directory for drush core
+drush_install_path: /usr/local/share/drush
+
+# Directory for drush
+drush_path: /usr/local/bin/drush
+
+# Drush version, branch or tag (like: "7.x", "8.x", "8.1.3", "master")
+drush_version: "8.x"
+
+# Update drush every time we run the role
+drush_keep_updated: yes
+drush_force_update: no
+
+# These options are the safest for avoiding GitHub API rate limits, but builds
+# can be sped up substantially by changing to --prefer-dist.
+drush_composer_cli_options: "--prefer-source --no-interaction"
