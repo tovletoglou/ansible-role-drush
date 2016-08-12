@@ -1,7 +1,7 @@
 ---
 
 # Directory for drush core
-drush_install_path: /usr/local/share/drush
+drush_install_path: /usr/local/share/applications/drush
 
 # Directory for drush
 drush_path: /usr/local/bin/drush
@@ -15,4 +15,5 @@ drush_force_update: no
 
 # These options are the safest for avoiding GitHub API rate limits, but builds
 # can be sped up substantially by changing to --prefer-dist.
+# For more information: [Composer CLI](https://getcomposer.org/doc/03-cli.md)
 drush_composer_cli_options: "--prefer-source --no-interaction"
