@@ -7,7 +7,7 @@ drush_install_path: /usr/local/share/applications/drush
 drush_path: /usr/local/bin/drush
 
 # Drush version, branch or tag (like: "7.x", "8.x", "8.1.3", "master")
-drush_version: "8.x"
+drush_version: "8.1.17"
 
 # Update drush every time we run the role
 drush_keep_updated: yes
@@ -16,4 +16,4 @@ drush_force_update: no
 # These options are the safest for avoiding GitHub API rate limits, but builds
 # can be sped up substantially by changing to --prefer-dist.
 # For more information: [Composer CLI](https://getcomposer.org/doc/03-cli.md)
-drush_composer_cli_options: "--prefer-source --no-interaction"
+# drush_composer_cli_options: "--prefer-source --no-interaction"
